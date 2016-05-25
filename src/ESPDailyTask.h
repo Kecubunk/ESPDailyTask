@@ -1,6 +1,6 @@
 /**
  * ESP8266 daily task library.
- * 
+ *
  * The Harringay Maker Space
  * License: Apache License v2
  **/
@@ -15,8 +15,9 @@ class ESPDailyTask {
   public:
     ESPDailyTask(int wakeUpMinutes);
 
-    void sleep1Day();  
-    void backToSleep();  
+    void sleep1Day();
+    void sleep45secs();
+    void backToSleep();
     void timeAdjustFromDateHeader(WiFiClient client);
 
   private:

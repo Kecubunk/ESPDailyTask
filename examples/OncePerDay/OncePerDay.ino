@@ -11,7 +11,8 @@
 ESPDailyTask dailyTask(16*60); // Hour to do the task - 16 for 4pm
 
 void setup() {
-  dailyTask.sleep1Day();
+  //dailyTask.sleep1Day();
+  dailyTask.sleep45secs();
 
   // put your daily code here...
 
